@@ -60,9 +60,4 @@ class Person
     end
   end
 
-  def self.date_to_slashes
-    self.all.each do |p|
-      p.dob = p.dob.gsub("-", "/")
-    end
-  end
 end

@@ -62,8 +62,6 @@ create_person_objects(file1)
 create_person_objects(file2)
 create_person_objects(file3)
 
-# Person.date_to_slashes
-
 output_1
 output_2
 output_3

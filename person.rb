@@ -54,10 +54,9 @@ class Person
     self.all.sort_by!{ |person| person.lastname}.reverse!
   end
 
-  def self.format_all_dob_for_output
-    Person.all.each do |p|
-      p.convert_datetime_to_dob
-    end
+  #for use in tests
+  def self.all=(array)
+    @@all = array
   end
 
 end
